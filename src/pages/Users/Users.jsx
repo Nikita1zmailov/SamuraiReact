@@ -136,7 +136,9 @@ const Users = (props) => {
 						<div className="user-info">
 							<div className="user-info--container">
 								<span className="user-name">
-									<CustomLink href="">{user.name}</CustomLink>
+									<CustomLink to={'/profile/' + user.id}>
+										{user.name}
+									</CustomLink>
 								</span>
 								<span className="user-descr">
 									{!user.status ? 'Student' : ''}

@@ -1,0 +1,19 @@
+@import "../../../variables.scss";
+
+.status-wrapper {
+   position: absolute;
+   bottom: 0;
+   right: 80px;
+   display: flex;
+   flex-direction: column;
+   .status-message {
+      font-size: 14px;
+      color: $grey-color;
+   }
+   .status-input {
+      color: $grey-color-bg;
+   }
+   .status-input:focus {
+      color: $grey-color-bg;
+   }
+}

@@ -6,6 +6,7 @@ img {
    object-fit: cover;
 }
 .profile {
+   position: relative;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -55,6 +56,7 @@ img {
             }
             .followers-icon {
                opacity: 1;
+               color: $blue-color;
             }
          }
       }
